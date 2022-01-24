@@ -27,7 +27,7 @@ The course was a good learning experience and touched multiple question marks th
   - Subroutes within MFEs use memory routers rather than browser router
   - Shell app uses browser router
 - Resolving issues with authentication
-  - The course didn't really touch this one properly in my opinion, but to my knowledge it doesn't really matter if using e.g. cookies for authentication: as long as the browser is sending the auth related cookie, all the MFEs within the shell app should be authenticated as well
+  - The course didn't really touch this one properly in my opinion, but to my knowledge it doesn't really matter if using e.g. cookies for authentication: as long as the browser is sending the auth header for example, all the MFEs within the shell app should be authenticated as well
 - Communicating between MFEs
   - My initial thought was that *even* the idea of using callbacks to communicate between MFEs as much as this app does is a bit questionable. But perhaps it can not be avoided: we'll see when I get to start implementing this to an actual production app
 
