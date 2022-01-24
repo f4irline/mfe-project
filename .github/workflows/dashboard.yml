@@ -18,8 +18,8 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - run: |
-          npm ci
-          npm run build
+          yarn install --frozen-lockfile
+          yarn build
       - uses: aws-actions/configure-aws-credentials@v1
         with:
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
